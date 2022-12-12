@@ -37,4 +37,8 @@ using the [speed test site](https://tools.pingdom.com/)
 
 Sneak Peak of the Site -
 
+![image](https://user-images.githubusercontent.com/49230384/207117386-088dd5a5-524d-4330-abbb-916a51c87673.png)
+![image](https://user-images.githubusercontent.com/49230384/207117644-ce37a498-a0d2-44dc-bba9-f6ae4fcbba1f.png)
+![image](https://user-images.githubusercontent.com/49230384/207118036-4919373e-20ff-4160-82cb-aaf6298ea07f.png)
+
 
