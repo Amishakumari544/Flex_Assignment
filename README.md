@@ -33,7 +33,7 @@ _**Check Out the application**_ - [Yoga Assignment !!!]()
 
 ### Speed Test for the Site -
 using the [speed test site](https://tools.pingdom.com/)
-![Speed Test](/src/assets/ReadmePics/speed_test.png)
+https://yogaflexmoney.netlify.app/
 
 Sneak Peak of the Site -
 
