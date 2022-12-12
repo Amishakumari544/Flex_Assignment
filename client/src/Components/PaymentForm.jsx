@@ -51,7 +51,7 @@ function Payment() {
       });
   };
   return (
-    <div className="paymentContainer align-center border-2 border-gray-900">
+    <div className="paymentContainer align-center">
       <h className="amountDisclaimer mt-5">Net amount to be paid: 500 (in Rupess)</h>
       <h className="optionsHeader mb-0">Choose Payment mode:</h>
       <div>
