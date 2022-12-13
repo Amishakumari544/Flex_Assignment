@@ -70,19 +70,19 @@ function Form() {
   };
 
   return (
-    <div className="formContainer shadow-xl border-2 border-gray-900">
-      <p className="text-gray-900 font-bold">Fill the Form</p>
+    <div className="formContainer w-3/4 shadow-sm">
+      <p className="text-gray-900 font-bold">Yoga Form</p>
       <input
         type="text"
         value={name}
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         placeholder="name@flexmoney.com"
         onChange={(e) => setName(e.target.value)}
         autocomplete="off"
       />
 
       <input
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+       class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         type="string"
         placeholder="Age"
         value={age}
@@ -92,16 +92,14 @@ function Form() {
       />
 
       <input
-      
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+      class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         type="date"
         placeholder="Starting date"
         value={startDate}
         onChange={(e) => setStartDate(e.target.value)}
       />
       <input
-        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
-        type="text"
+        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         placeholder="E-mail"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
@@ -154,10 +152,10 @@ function Form() {
         </div>
       </div>
       <button
-        className="toPayment m-4 hover:bg-gray-900 border-gray-500 border-2"
+        className="toPayment m-4 hover:bg-gray-900"
         onClick={Datapass}
       >
-        Continue <i class="fas fa-arrow-right"></i>
+        Next
       </button>
     </div>
   );

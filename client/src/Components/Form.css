@@ -40,10 +40,7 @@ overflow:hidden;
 }
 
 .formContainer .toPayment{
-    background:none;
     border:none;
-    margin:10px 0px;
-    transition:.5s;
     height:50px;
     width:180px;
 }
