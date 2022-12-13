@@ -1,7 +1,11 @@
 # FlexMoney_Assignment
 # FlexMoney - Internship Task
 
+<<<<<<< HEAD
 [AssignmentDemo.webm]
+=======
+[AssignmentDemo.webm](https://drive.google.com/file/d/16yOrUjQxttWbGuuvSnbj-u7EH-N3oLOU/view?usp=sharing)
+>>>>>>> 2d50506e0611bf1e4eaca509c0867b119431ef80
 
 
 # Development Server
@@ -33,7 +37,7 @@ _**Check Out the application**_ - [Yoga Assignment !!!]()
 
 ### Speed Test for the Site -
 using the [speed test site](https://tools.pingdom.com/)
-![Speed Test](/src/assets/ReadmePics/speed_test.png)
+https://yogaflexmoney.netlify.app/
 
 Sneak Peak of the Site -
 
