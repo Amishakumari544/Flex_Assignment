@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }))
 //Implement routing
 app.use('/api/users', require('./Routes/userInfoRoute'))
 app.use('/api', require('./Routes/paymentInfoRoute'))
-
+app.use("/home", require('./Routes/home'));
 
  
 //Start the server

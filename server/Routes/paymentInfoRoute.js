@@ -4,12 +4,6 @@ const paymentCollection = require('../Models/paymentModel')
 const validator = require("email-validator")
 
 
-router.get("/", async (req, res, next) => {
-    return res.status(200).json({
-      title: "Express Testing",
-      message: "The app is working properly!",
-    });
-  });
 
 //post route to store payment information of users in database
 router.post('/payment', (req, res) => {
