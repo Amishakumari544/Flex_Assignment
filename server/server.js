@@ -22,8 +22,8 @@ app.use(express.urlencoded({ extended: false }))
 //Implement routing
 app.use('/api/users', require('./Routes/userInfoRoute'))
 app.use('/api', require('./Routes/paymentInfoRoute'))
-// app.use(userRoute);
-// app.use(paymentRoute) 
+
+
  
 //Start the server
 app.listen(PORT,hostname,()=>{
