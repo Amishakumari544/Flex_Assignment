@@ -16,7 +16,7 @@
 - The project is based on MERN Stack Application where I have to create a form related to Yoga where user can register for their details whenever they want to join yoga classes.
  
 
-_**Check Out the application**_ - [Yoga Assignment !!!]()
+
 
 ## Libraries used -
 
@@ -26,7 +26,7 @@ _**Check Out the application**_ - [Yoga Assignment !!!]()
 | dotenv | State Management |
 | email-validator | email validation |
 | express | Back end web application framework |
-| mongoose | Database |
+| mongoDB | Database |
 | nodemon | utility library |
 | validator | Validation |
 | tailwindcss | Styling |
